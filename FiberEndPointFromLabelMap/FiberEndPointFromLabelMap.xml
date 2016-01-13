@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable>
+  <category>
+  Diffusion.Tractography
+  </category>
+  <title>
+  Fiber Endpoint From Label Map
+  </title>
+  <description>
+Fiber Endpoint From Label Map allows a user to calculate the perentage of fibers whose endpoints touching certain regions in a label map. The labelmap is provided by users, which can be generated from, e.g., Freesurfer. 
+  </description>
+  <version>1.0.0</version>
+  <documentation-url></documentation-url>
+  <license></license>
+  <contributor>Fan Zhang, Lauren O'Donnell</contributor>
+  <acknowledgements>BWH, NCIGT/NAC/LMI/SPL, USYD</acknowledgements>
+
+  <parameters>
+    <label>IO</label>
+    <description>Input/output parameters</description>
+    <image type ="label">
+      <name>InputLabel_A</name>
+      <label>Input Label Map</label>
+      <channel>input</channel>
+      <index>0</index>
+      <description>Label map volume</description>
+    </image>
+    <directory>
+      <name>InputDirectory</name>
+      <label>Fibers File Folder</label>
+      <channel>input</channel>
+      <index>1</index>
+      <description>Directory from which to read fibers</description>
+    </directory>
+    <file>
+      <name>outputFile</name>
+      <label>Output Text File</label>
+      <channel>output</channel>
+      <index>2</index>
+      <description>Output measurement file</description>
+    </file>
+  </parameters>
+
+</executable>

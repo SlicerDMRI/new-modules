@@ -1,4 +1,4 @@
-
+cmake_minimum_required(VERSION 2.8.9) #2.8.9 needed for ExternalProject Simplification
 #-----------------------------------------------------------------------------
 set(MODULE_NAME FiberTractClean)
 
@@ -9,6 +9,9 @@ set(MODULE_NAME FiberTractClean)
 #
 find_package(SlicerExecutionModel REQUIRED)
 include(${SlicerExecutionModel_USE_FILE})
+
+find_package(Slicer REQUIRED)
+include(${Slicer_USE_FILE})
 
 #-----------------------------------------------------------------------------
 SEMMacroBuildCLI(

@@ -33,7 +33,7 @@
 #include <vtkXMLPolyDataReader.h>
 #include <vtkXMLPolyDataWriter.h>
 #include <vtkVersion.h>
-#include <vtkPolyDataTensorToColor.h>
+//#include <vtkPolyDataTensorToColor.h>
 #include <vtkGlobFileNames.h>
 #include <vtkStringArray.h>
 #include <vtkAssignAttribute.h>

@@ -1,6 +1,0 @@
-# Target labels
- FiberEndPointFromLabelMap
-# Source files and their labels
-/home/brain/Sandbox/FiberEndPointFromLabelMap-build/FiberEndPointFromLabelMapCLP.h
-/home/brain/Sandbox/FiberEndPointFromLabelMap/FiberEndPointFromLabelMap.cxx
-/home/brain/Sandbox/FiberEndPointFromLabelMap-build/FiberEndPointFromLabelMapCLP.h.rule

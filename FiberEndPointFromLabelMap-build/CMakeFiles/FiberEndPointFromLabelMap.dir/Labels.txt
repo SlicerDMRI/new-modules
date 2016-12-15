@@ -1,4 +1,0 @@
-# Target labels
- FiberEndPointFromLabelMap
-# Source files and their labels
-/home/brain/Slicer/Slicer-SuperBuild/Slicer-build/Base/CLI/SEMCommandLineLibraryWrapper.cxx

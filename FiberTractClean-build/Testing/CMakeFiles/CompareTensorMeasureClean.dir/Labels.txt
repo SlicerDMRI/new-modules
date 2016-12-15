@@ -1,4 +1,0 @@
-# Target labels
- FiberTractClean
-# Source files and their labels
-/home/brain/Sandbox/FiberTractClean/Testing/CompareTensorMeasure.cxx

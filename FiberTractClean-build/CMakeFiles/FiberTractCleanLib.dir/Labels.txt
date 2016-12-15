@@ -1,6 +1,0 @@
-# Target labels
- FiberTractClean
-# Source files and their labels
-/home/brain/Sandbox/FiberTractClean-build/FiberTractCleanCLP.h
-/home/brain/Sandbox/FiberTractClean/FiberTractClean.cxx
-/home/brain/Sandbox/FiberTractClean-build/FiberTractCleanCLP.h.rule

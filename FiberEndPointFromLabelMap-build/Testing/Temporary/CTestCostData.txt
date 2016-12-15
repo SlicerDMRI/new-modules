@@ -1,0 +1,4 @@
+FiberEndPointFromLabelMapTestVTK 0 0
+FiberEndPointFromLabelMapCompareTxts 1 0.428444
+---
+FiberEndPointFromLabelMapTestVTK

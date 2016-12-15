@@ -8,9 +8,6 @@
 
 #include "FiberEndPointFromLabelMapCLP.h"
 
-#include "itkPluginFilterWatcher.h"
-#include "itkPluginUtilities.h"
-
 // vtkITK includes
 #include <vtkITKArchetypeImageSeriesScalarReader.h>
 
@@ -33,7 +30,6 @@
 #include <vtkXMLPolyDataReader.h>
 #include <vtkXMLPolyDataWriter.h>
 #include <vtkVersion.h>
-//#include <vtkPolyDataTensorToColor.h>
 #include <vtkGlobFileNames.h>
 #include <vtkStringArray.h>
 #include <vtkAssignAttribute.h>
@@ -197,7 +193,7 @@ int computeFiberStats(vtkPolyData *input,
 
   int *labelDims = imageCastLabel_A->GetOutput()->GetDimensions();
 
-  // Get the total number of labels in the label map  
+  // Get the total number of labels in the label map
   int pt[3];
   int maxLabel = 0;
   std::set<short> uniqueLabel;
@@ -217,10 +213,10 @@ int computeFiberStats(vtkPolyData *input,
         {
             maxLabel =  *inPtr;
         }
-      }     
+      }
     }
   }
-  std::cout << " - Label map: number of labels (regions) " << uniqueLabel.size() 
+  std::cout << " - Label map: number of labels (regions) " << uniqueLabel.size()
             << " , maximum label: " << maxLabel << std::endl;
 
   // Initialize the label-point array
@@ -275,11 +271,11 @@ int computeFiberStats(vtkPolyData *input,
     {
       continue;
     }
-    
+
     // Label (region) touched by the start point
     inPtr = (short *) imageCastLabel_A->GetOutput()->GetScalarPointer(pt);
     labelStartPointCount[*inPtr] ++;
-   
+
     // Last point of the fiber
     j = npts - 1;
     inPts->GetPoint(pts[j],p);
@@ -307,8 +303,8 @@ int computeFiberStats(vtkPolyData *input,
   {
     char labelName[5];
     sprintf(labelName, "%04d", c);
-    
-    if (uniqueLabel.find(c) != uniqueLabel.end())  
+
+    if (uniqueLabel.find(c) != uniqueLabel.end())
       it->second[std::string(labelName)] = (labelStartPointCount[c] + labelEndPointCount[c]) / npolys / 2 * 100;
     //it->second[std::string(labelName) + "(start)"] = labelStartPointCount[c] / npolys * 100;
     //it->second[std::string(labelName) + "(end)"] = labelEndPointCount[c] / npolys * 100;

@@ -6,6 +6,16 @@
 #define ITK_LEAN_AND_MEAN
 #endif
 
+#include "itkPluginFilterWatcher.h"
+#include "itkPluginUtilities.h"
+
+// vtkITK includes
+#include <vtkITKArchetypeImageSeriesScalarReader.h>
+
+// added for taking VTK and VTP as input and output
+#include <vtkPolyDataReader.h>
+#include <vtksys/SystemTools.hxx>
+
 // STD includes
 #include <iostream>
 #include <fstream>
@@ -22,8 +32,8 @@ int main( int argc, char * argv[] )
 
   std::string resultTxtPath = argv[1];
   std::string baselineTxtPath = argv[2];
-  std::ifstream resultTxt(resultTxtPath);
-  std::ifstream baselineTxt(baselineTxtPath);
+  std::ifstream resultTxt(resultTxtPath.c_str());
+  std::ifstream baselineTxt(baselineTxtPath.c_str());
 
   std::string resultLine;
   std::string baselineLine;

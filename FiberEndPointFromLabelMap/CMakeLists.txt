@@ -1,3 +1,4 @@
+cmake_minimum_required(VERSION 2.8.9)
 
 #-----------------------------------------------------------------------------
 set(MODULE_NAME FiberEndPointFromLabelMap)
@@ -9,6 +10,9 @@ set(MODULE_NAME FiberEndPointFromLabelMap)
 #
 find_package(SlicerExecutionModel REQUIRED)
 include(${SlicerExecutionModel_USE_FILE})
+
+find_package(Slicer REQUIRED)
+include(${Slicer_USE_FILE})
 
 #-----------------------------------------------------------------------------
 SEMMacroBuildCLI(

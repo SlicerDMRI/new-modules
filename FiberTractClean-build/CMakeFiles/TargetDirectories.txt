@@ -1,0 +1,9 @@
+/home/brain/Sandbox/FiberTractClean-build/Testing/CMakeFiles/CompareTensorMeasureClean.dir
+/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/ConfigureAdditionalLauncherSettings.dir
+/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/Experimental.dir
+/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/ExperimentalUpload.dir
+/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/FiberTractClean.dir
+/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/FiberTractCleanLib.dir
+/home/brain/Sandbox/FiberTractClean-build/Testing/CMakeFiles/FiberTractCleanTest.dir
+/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/Nightly.dir
+/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/NightlyUpload.dir

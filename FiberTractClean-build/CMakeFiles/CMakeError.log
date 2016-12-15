@@ -1,0 +1,121 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2720980123/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2720980123.dir/build.make CMakeFiles/cmTryCompileExec2720980123.dir/build
+make[1]: Entering directory '/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2720980123.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2720980123.dir/CheckSymbolExists.cxx.o -c /home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec2720980123.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2720980123.dir/CheckSymbolExists.cxx.o' failed
+make[1]: Leaving directory '/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2720980123.dir/CheckSymbolExists.cxx.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec2720980123/fast' failed
+make: *** [cmTryCompileExec2720980123/fast] Error 2
+
+File /home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3023633852/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3023633852.dir/build.make CMakeFiles/cmTryCompileExec3023633852.dir/build
+make[1]: Entering directory '/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3023633852.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3023633852.dir/CheckSymbolExists.cxx.o -c /home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec3023633852.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3023633852.dir/CheckSymbolExists.cxx.o' failed
+make[1]: Leaving directory '/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3023633852.dir/CheckSymbolExists.cxx.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3023633852/fast' failed
+make: *** [cmTryCompileExec3023633852/fast] Error 2
+
+File /home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2164290281/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2164290281.dir/build.make CMakeFiles/cmTryCompileExec2164290281.dir/build
+make[1]: Entering directory '/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2164290281.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2164290281.dir/CheckSymbolExists.cxx.o -c /home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec2164290281.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2164290281.dir/CheckSymbolExists.cxx.o' failed
+make[1]: Leaving directory '/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2164290281.dir/CheckSymbolExists.cxx.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec2164290281/fast' failed
+make: *** [cmTryCompileExec2164290281/fast] Error 2
+
+File /home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CXX compiler accepts the flag -features=no%anachronisms passed with the following output:
+Change Dir: /home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2371554593/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2371554593.dir/build.make CMakeFiles/cmTryCompileExec2371554593.dir/build
+make[1]: Entering directory '/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2371554593.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-depth-50 -fno-tree-vectorize -features=no%anachronisms   -o CMakeFiles/cmTryCompileExec2371554593.dir/src.cxx.o -c /home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option ‘-features=no%anachronisms’
+CMakeFiles/cmTryCompileExec2371554593.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2371554593.dir/src.cxx.o' failed
+make[1]: Leaving directory '/home/brain/Sandbox/FiberTractClean-build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2371554593.dir/src.cxx.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec2371554593/fast' failed
+make: *** [cmTryCompileExec2371554593/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+

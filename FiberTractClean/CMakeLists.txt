@@ -4,17 +4,6 @@ cmake_minimum_required(VERSION 2.8.9)
 set(MODULE_NAME FiberTractClean)
 
 #-----------------------------------------------------------------------------
-
-#
-# SlicerExecutionModel
-#
-find_package(SlicerExecutionModel REQUIRED)
-include(${SlicerExecutionModel_USE_FILE})
-
-find_package(Slicer REQUIRED)
-include(${Slicer_USE_FILE})
-
-#-----------------------------------------------------------------------------
 SEMMacroBuildCLI(
   NAME ${MODULE_NAME}
   LOGO_HEADER ${Slicer_SOURCE_DIR}/Resources/ITKLogo.h

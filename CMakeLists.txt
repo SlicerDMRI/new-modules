@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 2.8.9)
 
-project(SlicerDMRISandbox)
-
 #-----------------------------------------------------------------------------
 # Extension meta-information
 set(EXTENSION_HOMEPAGE "http://slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerDMRISandbox")
@@ -14,8 +12,18 @@ set(EXTENSION_DEPENDS "NA") # Specified as a space separated string, a list or '
 
 #-----------------------------------------------------------------------------
 # Extension dependencies
+find_package(Slicer COMPONENTS ConfigurePrerequisites REQUIRED)
+project(SlicerDMRISandbox)
 find_package(Slicer REQUIRED)
 include(${Slicer_USE_FILE})
+
+#-----------------------------------------------------------------------------
+
+#
+# SlicerExecutionModel
+#
+find_package(SlicerExecutionModel REQUIRED)
+include(${SlicerExecutionModel_USE_FILE})
 
 #-----------------------------------------------------------------------------
 # Extension modules

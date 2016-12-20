@@ -21,7 +21,7 @@ build_subdirectory .
 homepage http://slicerdmri.github.io/
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
-# For example: 
+# For example:
 contributors Fan Zhang, Isaiah Norton, Ye Wu, Lauren O'Donnell (Brigham & Women's Hospital), and others.
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
